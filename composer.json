@@ -4,12 +4,12 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "wjlorine\\OssUtils\\": "src/"
+            "lorine\\OssUtils\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "wjlorine",
+            "name": "lorine",
             "email": "504084449@qq.com"
         }
     ],
