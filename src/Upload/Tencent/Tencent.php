@@ -1,10 +1,10 @@
 <?php
 
-namespace wjLorine\OssUtils\Upload\Tencent;
+namespace Lorine\OssUtils\Upload\Tencent;
 
 
 
-use wjLorine\OssUtils\Upload\ICloud;
+use Lorine\OssUtils\Upload\ICloud;
 use Qcloud\Cos\Client;
 
 class Tencent implements ICloud

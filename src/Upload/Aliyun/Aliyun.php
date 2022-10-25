@@ -1,15 +1,16 @@
 <?php
 
-namespace wjLorine\OssUtils\Upload\Aliyun;
+namespace Lorine\OssUtils\Upload\Aliyun;
 
 
 
-use wjLorine\OssUtils\Upload\ICloud;
+use Lorine\OssUtils\Upload\ICloud;
 
 class Aliyun implements ICloud
 {
-    public function uploadFile($config, $tmpName, $fileName)
+    public function uploadFile($config,$tmpName,$fileName)
     {
         // TODO: Implement uploadFile() method.
     }
+
 }

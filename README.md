@@ -1,5 +1,4 @@
 # 简介（oss-tools）
-
 腾讯云、七牛云对象存储的工具类
 
 An SDK integrating Tencent cloud and qiniu cloud object storage
@@ -7,13 +6,13 @@ An SDK integrating Tencent cloud and qiniu cloud object storage
 ## 安装（Installation）
 
 ```php
-composer require wjlorine/oss-utils
+composer require lorine/oss-utils
 ```
 
 ## 示例（example）
 
 ```php
-use wjLorine\OssUtils\OssService;
+use Lorine\OssUtils\OssService;
 
 
      $config = [
@@ -22,7 +21,7 @@ use wjLorine\OssUtils\OssService;
             'bucket' => 'xxxxx',//桶名
             'region' => ''//地区 七牛云为''，腾讯云在控制台对象存储界面获取，如上海（ap-shanghai）
         ];
-
+    
     try {
             //云存储类型 腾讯云：Tencent  七牛云：Qiniu
             $obj = (new OssService())->getOssService('Tencent');
