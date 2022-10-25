@@ -1,0 +1,19 @@
+{
+    "name": "cos/wj-temcos",
+    "description": "自用腾讯云存储工具类",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "cos",
+            "email": "504084449@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    }
+}
