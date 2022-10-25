@@ -1,5 +1,5 @@
 {
-    "name": "cos/wj-temcos",
+    "name": "wj/wj-temcos",
     "description": "自用腾讯云存储工具类",
     "type": "library",
     "autoload": {
@@ -9,7 +9,7 @@
     },
     "authors": [
         {
-            "name": "cos",
+            "name": "wj_temcos",
             "email": "504084449@qq.com"
         }
     ],
