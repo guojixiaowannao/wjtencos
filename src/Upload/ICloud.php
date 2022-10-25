@@ -1,9 +1,8 @@
 <?php
 
-namespace Lorine\OssUtils\Upload;
+namespace wjLorine\OssUtils\Upload;
 
 interface ICloud
 {
-    public function uploadFile($config,$tmpName,$fileName);
-
+    public function uploadFile($config, $tmpName, $fileName);
 }
