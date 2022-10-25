@@ -1,15 +1,15 @@
 {
-    "name": "wjkjtemcos/wj-temcos",
-    "description": "自用腾讯云存储工具类",
+    "name": "wjlorine/oss-utils",
+    "description": "云存储工具类",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "\\": ""
+            "wjlorine\\OssUtils\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "wjkjtemcos",
+            "name": "wjlorine",
             "email": "504084449@qq.com"
         }
     ],
